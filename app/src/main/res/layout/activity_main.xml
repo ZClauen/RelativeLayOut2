@@ -14,12 +14,12 @@
         />
     <TextView
         android:id="@+id/TextLog"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Log In"
         android:textSize="45dp"
-        android:paddingLeft="145dp"
-        android:paddingTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         />
 
     <EditText
